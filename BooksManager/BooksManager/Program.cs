@@ -9,42 +9,35 @@ namespace BooksManager
         {
             var builder = WebApplication.CreateBuilder(args);
 
-
-            // Configuração do ApplicationDbContext
+            // Configuração do ApplicationDbContext com o SQL Server
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            // Adicionar serviços de autenticação, sessão e autorização, por exemplo:
+            // Configurar serviços de autenticação, autorização, sessão e cache
             builder.Services.AddAuthentication("CookieAuthentication")
                 .AddCookie("CookieAuthentication", options =>
                 {
                     options.LoginPath = "/Account/Login";
                     options.AccessDeniedPath = "/Account/AccessDenied";
                 });
+
+            builder.Services.AddAuthorization(); // Adicionar serviço de autorização
+            builder.Services.AddDistributedMemoryCache(); // Adicionar cache em memória
             builder.Services.AddSession();
+
+            // Adicionar suporte completo a MVC com Views
+            builder.Services.AddControllersWithViews(); // Substitua AddControllers() por AddControllersWithViews()
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
-
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
+            // Configurar o middleware
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseSession();
+            app.UseStaticFiles(); // Permite servir arquivos estáticos (CSS, JS, imagens)
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+            // Configurar a rota padrão
+            app.MapDefaultControllerRoute();
 
             app.Run();
         }

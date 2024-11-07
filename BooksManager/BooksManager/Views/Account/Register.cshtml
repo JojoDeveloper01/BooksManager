@@ -1,12 +1,48 @@
 ﻿@model BibliotecaMVC.Models.User
+@{
+    ViewData["Title"] = "Registrar";
+}
 
-<form asp-action="Register">
-    <input asp-for="Nome" placeholder="Nome" required />
-    <input asp-for="Email" placeholder="Email" type="email" required />
-    <input asp-for="PasswordHash" placeholder="Senha" type="password" required />
-    <select asp-for="Role">
-        <option>Administrador</option>
-        <option>Utilizador</option>
-    </select>
-    <button type="submit">Registrar</button>
-</form>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title text-center mb-4">Registrar-se</h3>
+
+                    <form asp-action="Register">
+                        <div class="form-group mb-3">
+                            <label asp-for="Nome">Nome</label>
+                            <input asp-for="Nome" class="form-control" placeholder="Digite seu nome" required />
+                            <span asp-validation-for="Nome" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email">Email</label>
+                            <input asp-for="Email" type="email" class="form-control" placeholder="Digite seu email" required />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="PasswordHash">Senha</label>
+                            <input asp-for="PasswordHash" type="password" class="form-control" placeholder="Digite sua senha" required />
+                            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="Role">Role</label>
+                            <select asp-for="Role" class="form-control">
+                                <option value="" disabled selected>Selecione uma função</option>
+                                <option>Administrador</option>
+                                <option>Utilizador</option>
+                            </select>
+                            <span asp-validation-for="Role" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-success btn-block w-100">Registrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
