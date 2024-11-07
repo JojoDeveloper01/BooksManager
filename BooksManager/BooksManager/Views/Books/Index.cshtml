@@ -1,0 +1,28 @@
+﻿@model IEnumerable<BibliotecaMVC.Models.Book>
+
+<table>
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Ano</th>
+            <th>Disponibilidade</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Titulo</td>
+                <td>@book.Autor</td>
+                <td>@book.AnoPublicacao</td>
+                <td>@(book.Disponivel ? "Sim" : "Não")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@book.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@book.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

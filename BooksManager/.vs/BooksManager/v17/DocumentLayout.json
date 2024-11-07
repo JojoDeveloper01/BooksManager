@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|c:\\users\\2222116\\onedrive - escola digital\\escoladigital\\rc\\12_ano\\gabriel\\booksmnager\\booksmanager\\booksmanager\\booksmanager\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F47FAB17-06B6-41D3-8518-327E898B0EA5}|BooksManager\\BooksManager.csproj|solutionrelative:booksmanager\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\appsettings.json",
+              "RelativeDocumentMoniker": "BooksManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\appsettings.json",
+              "RelativeToolTip": "BooksManager\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T11:28:17.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:27:25.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:27:24.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:27:18.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Program.cs",
+              "RelativeDocumentMoniker": "BooksManager\\Program.cs",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Program.cs",
+              "RelativeToolTip": "BooksManager\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:27:23.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:38:15.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:37:35.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BooksManager\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BooksManager\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwEQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:36:22.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BooksManager\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BooksManager\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAgwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:35:41.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BooksManager\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BooksManager\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:35:16.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:40:16.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "BooksManager\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Models\\Book.cs",
+              "RelativeToolTip": "BooksManager\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:34:23.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BooksManager\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Models\\User.cs",
+              "RelativeToolTip": "BooksManager\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:33:44.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T10:59:40.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BooksManager\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "BooksManager\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:04:26.315Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿@model BibliotecaMVC.Models.Book
+
+@{
+    ViewData["Title"] = "Editar Livro";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit">
+    <div>
+        <label asp-for="Titulo"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Autor"></label>
+        <input asp-for="Autor" class="form-control" />
+        <span asp-validation-for="Autor" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="AnoPublicacao"></label>
+        <input asp-for="AnoPublicacao" class="form-control" />
+        <span asp-validation-for="AnoPublicacao" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Disponivel"></label>
+        <select asp-for="Disponivel" class="form-control">
+            <option value="true">Sim</option>
+            <option value="false">Não</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+    </div>
+</form>
+
+<a href="@Url.Action("Index")" class="btn btn-secondary">Voltar para a lista</a>

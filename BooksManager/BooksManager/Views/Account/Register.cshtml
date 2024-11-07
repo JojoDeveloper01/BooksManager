@@ -1,0 +1,12 @@
+﻿@model BibliotecaMVC.Models.User
+
+<form asp-action="Register">
+    <input asp-for="Nome" placeholder="Nome" required />
+    <input asp-for="Email" placeholder="Email" type="email" required />
+    <input asp-for="PasswordHash" placeholder="Senha" type="password" required />
+    <select asp-for="Role">
+        <option>Administrador</option>
+        <option>Utilizador</option>
+    </select>
+    <button type="submit">Registrar</button>
+</form>

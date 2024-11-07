@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Bem-vindo à Biblioteca Online";
+}
+
+<!-- Estilos personalizados para dar um toque especial ao tema de livros -->
+<style>
+    body {
+        background-color: #f8f5f0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .btn-outline-secondary {
+        color: #5a4e4d;
+        border-color: #5a4e4d;
+    }
+
+        .btn-outline-secondary:hover {
+            background-color: #5a4e4d;
+            color: white;
+        }
+
+    .btn-primary {
+        background-color: #5a4e4d;
+        border-color: #5a4e4d;
+    }
+
+    .footer {
+        background-color: #2d2b29;
+    }
+</style>
+
+
+<!-- Seção de boas-vindas -->
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 text-primary">Bem-vindo à Biblioteca Online</h1>
+        <p class="lead text-muted">Explore, registre-se e gerencie sua coleção de livros favorita.</p>
+    </div>
+
+    <!-- Links de Registro e Login -->
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-4">
+            <a href="/Account/Register" class="btn btn-outline-secondary btn-lg btn-block mb-2" role="button">Registrar-se</a>
+        </div>
+        <div class="col-md-4">
+            <a href="/Account/Login" class="btn btn-primary btn-lg btn-block" role="button">Entrar</a>
+        </div>
+    </div>
+
+    <!-- Seção de Apresentação com Tema de Livros -->
+    <div class="row mt-5">
+        <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="Estante de Livros" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+            <div>
+                <h2 class="text-secondary">Gestão Simplificada de Livros</h2>
+                <p class="text-muted">
+                    Nossa biblioteca online permite que você gerencie seus livros de forma prática e eficiente. Como administrador, você pode adicionar, editar e remover livros do catálogo.
+                </p>
+                <p class="text-muted">
+                    Navegue pelas obras disponíveis, mantenha sua coleção organizada e aproveite as facilidades que o sistema proporciona.
+                </p>
+                <a href="/Books/Index" class="btn btn-success btn-lg mt-3" role="button">Ver Catálogo de Livros</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer class="footer mt-5 py-3 bg-dark text-white">
+    <div class="container text-center">
+        <small>&copy; 2024 Biblioteca Online. Todos os direitos reservados.</small>
+    </div>
+</footer>
