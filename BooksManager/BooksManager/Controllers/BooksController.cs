@@ -1,12 +1,11 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
 using BibliotecaMVC.Data;
 using BibliotecaMVC.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace BibliotecaMVC.Controllers
 {
-    [Authorize(Roles = "Administrador")]
     public class BooksController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -16,23 +15,45 @@ namespace BibliotecaMVC.Controllers
             _context = context;
         }
 
-        // GET: Books
         public IActionResult Index()
         {
-            return View(_context.Books.ToList());
+            // Verifica se o usuário está autenticado
+            if (HttpContext.Session.GetString("UserId") == null)
+            {
+                return RedirectToAction("Login", "Account"); // Redireciona para login se não estiver autenticado
+            }
+
+            // Verifica se o usuário é administrador
+            if (HttpContext.Session.GetString("UserRole") != "Administrador")
+            {
+                return RedirectToAction("AccessDenied", "Account"); // Redireciona para página de acesso negado
+            }
+
+            var books = _context.Books.ToList();
+            return View(books); // Exibe a página se o usuário for um administrador
         }
 
-        // GET: Books/Create
+        // Outros métodos de criação, edição e exclusão de livros seguem a mesma lógica de verificação manual.
+
         public IActionResult Create()
         {
+            if (HttpContext.Session.GetString("UserRole") != "Administrador")
+            {
+                return RedirectToAction("AccessDenied", "Account");
+            }
+
             return View();
         }
 
-        // POST: Books/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Book book)
         {
+            if (HttpContext.Session.GetString("UserRole") != "Administrador")
+            {
+                return RedirectToAction("AccessDenied", "Account");
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(book);

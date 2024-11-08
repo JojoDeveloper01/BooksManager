@@ -1,5 +1,6 @@
 using BibliotecaMVC.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace BooksManager
 {
@@ -9,34 +10,34 @@ namespace BooksManager
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Configuração do ApplicationDbContext com o SQL Server
+            // Configura o DbContext com o SQL Server
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            // Configurar serviços de autenticação, autorização, sessão e cache
-            builder.Services.AddAuthentication("CookieAuthentication")
-                .AddCookie("CookieAuthentication", options =>
+            // Configura autenticação com cookies
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
                 {
                     options.LoginPath = "/Account/Login";
                     options.AccessDeniedPath = "/Account/AccessDenied";
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Expiração do cookie
+                    options.SlidingExpiration = true; // Atualiza o te  mpo de expiração ao usar
                 });
 
-            builder.Services.AddAuthorization(); // Adicionar serviço de autorização
-            builder.Services.AddDistributedMemoryCache(); // Adicionar cache em memória
-            builder.Services.AddSession();
-
-            // Adicionar suporte completo a MVC com Views
-            builder.Services.AddControllersWithViews(); // Substitua AddControllers() por AddControllersWithViews()
+            builder.Services.AddAuthorization();
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession(); // Configura sessões
+            builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
 
-            // Configurar o middleware
+            // Configura o middleware de sessão e autenticação/autorização
+            app.UseStaticFiles();
+            app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();
-            app.UseSession();
-            app.UseStaticFiles(); // Permite servir arquivos estáticos (CSS, JS, imagens)
 
-            // Configurar a rota padrão
+            // Configura a rota padrão
             app.MapDefaultControllerRoute();
 
             app.Run();

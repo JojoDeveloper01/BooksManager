@@ -3,10 +3,12 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using BibliotecaMVC.Data;
 using BibliotecaMVC.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace BibliotecaMVC.Controllers
+namespace BooksManager.Controllers
 {
     public class AccountController : Controller
     {
@@ -30,9 +32,12 @@ namespace BibliotecaMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                user.PasswordHash = ComputeHash(user.PasswordHash); // Hash password
+                // Gera o hash da senha antes de salvar
+                user.PasswordHash = ComputeHash(user.PasswordHash);
                 _context.Add(user);
                 await _context.SaveChangesAsync();
+
+                // Redireciona para a página de login após o registro
                 return RedirectToAction(nameof(Login));
             }
             return View(user);
@@ -50,18 +55,30 @@ namespace BibliotecaMVC.Controllers
         public IActionResult Login(string email, string password)
         {
             var passwordHash = ComputeHash(password);
-            var user = _context.Users.FirstOrDefault(u => u.Email == email && u.PasswordHash == passwordHash && u.Role == "Administrador");
+            var user = _context.Users.FirstOrDefault(u => u.Email == email && u.PasswordHash == passwordHash);
 
             if (user != null)
             {
                 HttpContext.Session.SetString("UserId", user.Id.ToString());
-                return RedirectToAction("Index", "Books");
+                HttpContext.Session.SetString("UserName", user.Nome);
+                HttpContext.Session.SetString("UserRole", user.Role); // Certifique-se de salvar a role
+
+                return RedirectToAction("Index", "Home");
             }
 
             ModelState.AddModelError("", "Login falhou! Verifique as credenciais.");
             return View();
         }
 
+
+        // Logout: Limpa a sessão e redireciona para a página de login
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
+
+        // Função auxiliar para calcular o hash da senha
         private string ComputeHash(string input)
         {
             using (var sha256 = SHA256.Create())

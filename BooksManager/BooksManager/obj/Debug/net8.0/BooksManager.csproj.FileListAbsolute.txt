@@ -283,3 +283,4 @@ C:\Users\2222116\OneDrive - Escola Digital\Mediateca\BooksManager\BooksManager\B
 C:\Users\2222116\OneDrive - Escola Digital\Mediateca\BooksManager\BooksManager\BooksManager\obj\Debug\net8.0\BooksManager.pdb
 C:\Users\2222116\OneDrive - Escola Digital\Mediateca\BooksManager\BooksManager\BooksManager\obj\Debug\net8.0\BooksManager.genruntimeconfig.cache
 C:\Users\2222116\OneDrive - Escola Digital\Mediateca\BooksManager\BooksManager\BooksManager\obj\Debug\net8.0\ref\BooksManager.dll
+C:\Users\2222116\OneDrive - Escola Digital\EscolaDigital\RC\12_Ano\Gabriel\BooksMnager\BooksManager\BooksManager\BooksManager\obj\Debug\net8.0\BooksManager.sourcelink.json
