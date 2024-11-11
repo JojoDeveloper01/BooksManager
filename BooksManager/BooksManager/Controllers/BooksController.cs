@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using BibliotecaMVC.Data;
 using BibliotecaMVC.Models;
 using Microsoft.AspNetCore.Http;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace BibliotecaMVC.Controllers
 {
@@ -47,21 +48,26 @@ namespace BibliotecaMVC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Book book)
+        public IActionResult Create(Book b)
         {
-            if (HttpContext.Session.GetString("UserRole") != "Administrador")
+            string stringFileName = ImagemCaminho(b); // Assuming this method returns the image path as a string
+            var book = new Book
             {
-                return RedirectToAction("AccessDenied", "Account");
-            }
+                Titulo = b.Titulo,
+                Autor = b.Autor,
+                AnoPublicacao = b.AnoPublicacao,
+                Disponivel = b.Disponivel,
+                ImagemCaminho = null // Optionally, use the actual path if storing the file path as a string
+            };
 
-            if (ModelState.IsValid)
-            {
-                _context.Add(book);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(book);
+            // Save the `book` entity to the database here if needed
+            // For example:
+            // _context.Books.Add(book);
+            // _context.SaveChanges();
+
+            return Ok(book); // Return the created book or another appropriate response
         }
+
 
         // GET: Books/Edit/5
         public IActionResult Edit(int id)
@@ -96,14 +102,23 @@ namespace BibliotecaMVC.Controllers
         }
 
         // POST: Books/Delete/5
+        // POST: Books/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var book = _context.Books.Find(id);
+            var book = await _context.Books.FindAsync(id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+
             _context.Books.Remove(book);
             await _context.SaveChangesAsync();
+
+            // Redireciona para a lista de livros após a exclusão
             return RedirectToAction(nameof(Index));
         }
+
     }
 }

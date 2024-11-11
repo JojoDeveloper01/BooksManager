@@ -1,0 +1,39 @@
+﻿@model BibliotecaMVC.Models.Book
+
+@{
+    ViewData["Title"] = "Adicionar Livro";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Titulo"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Autor"></label>
+        <input asp-for="Autor" class="form-control" />
+        <span asp-validation-for="Autor" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AnoPublicacao"></label>
+        <input asp-for="AnoPublicacao" class="form-control" />
+        <span asp-validation-for="AnoPublicacao" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Disponivel"></label>
+        <select asp-for="Disponivel" class="form-control">
+            <option value="true">Sim</option>
+            <option value="false">Não</option>
+        </select>
+    </div>
+@*     <div class="form-control">
+        <label asp-for="ImagemCaminho" class="control-label">Imagem do Livro (opcional)</label>
+        <input aps-for="ImagemCaminho" type="file" name="imagem" class="form-control" />
+        <span asp-validation-for="ImagemCaminho"></span>
+    </div> *@
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

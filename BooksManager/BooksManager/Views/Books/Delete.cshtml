@@ -8,7 +8,7 @@
 
 <p>Tem certeza de que deseja excluir o livro "@Model.Titulo" de @Model.Autor?</p>
 
-<form asp-action="DeleteConfirmed" method="post">
+<form asp-action="Delete" method="post">
     <input type="hidden" asp-for="Id" />
     <button type="submit" class="btn btn-danger">Sim, Excluir</button>
     <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>

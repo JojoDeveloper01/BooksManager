@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Remove="Views\Account\AccessDenied.cshtml.cs" />
+    <Compile Remove="Views\Books\Create.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>

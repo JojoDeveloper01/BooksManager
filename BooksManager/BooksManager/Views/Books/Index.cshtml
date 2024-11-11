@@ -1,28 +1,56 @@
 ﻿@model IEnumerable<BibliotecaMVC.Models.Book>
 
-<table>
-    <thead>
-        <tr>
-            <th>Título</th>
-            <th>Autor</th>
-            <th>Ano</th>
-            <th>Disponibilidade</th>
-            <th>Ações</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var book in Model)
-        {
-            <tr>
-                <td>@book.Titulo</td>
-                <td>@book.Autor</td>
-                <td>@book.AnoPublicacao</td>
-                <td>@(book.Disponivel ? "Sim" : "Não")</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@book.Id">Editar</a> |
-                    <a asp-action="Delete" asp-route-id="@book.Id">Excluir</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+@{
+    ViewData["Title"] = "Catálogo de Livros";
+}
+
+<div class="container mt-3">
+    <h1 class="display-4">Catálogo de Livros</h1>
+
+    <!-- Botão de adicionar livro -->
+    <div class="text-right mb-3">
+        <a asp-action="Create" class="btn btn-success">Adicionar Livro</a>
+    </div>
+
+    <!-- Verifica se há livros -->
+    @if (!Model.Any())
+    {
+        <p>Nenhum livro disponível.</p>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Ano</th>
+                    <th>Disponibilidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                    <tr>
+                        <td>
+                            @if (!string.IsNullOrEmpty(book.ImagemCaminho))
+                            {
+                                <img src="~/@book.ImagemCaminho" alt="Imagem de @book.Titulo" style="width: 100px; height: auto;" />
+                            }
+                        </td>
+                        <td>@book.Titulo</td>
+                        <td>@book.Autor</td>
+                        <td>@book.AnoPublicacao</td>
+                        <td>@(book.Disponivel ? "Sim" : "Não")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-primary btn-sm">Editar</a>
+                            <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger btn-sm">Excluir</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
