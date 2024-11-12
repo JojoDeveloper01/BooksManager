@@ -1,56 +1,68 @@
-﻿@model IEnumerable<BibliotecaMVC.Models.Book>
+﻿@model IEnumerable<BooksManager.Models.Book>
 
 @{
     ViewData["Title"] = "Catálogo de Livros";
 }
 
-<div class="container mt-3">
-    <h1 class="display-4">Catálogo de Livros</h1>
+<div class="container mt-5">
+    <h1 class="display-4 text-center mb-4" style="color: #6b4f4f;">
+        <i class="bi bi-journal-bookmark me-2"></i>@ViewData["Title"]
+    </h1>
 
-    <!-- Botão de adicionar livro -->
-    <div class="text-right mb-3">
-        <a asp-action="Create" class="btn btn-success">Adicionar Livro</a>
+    <!-- Add Book Button -->
+    <div class="text-end mb-4">
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Adicionar Livro
+        </a>
     </div>
 
-    <!-- Verifica se há livros -->
+    <!-- Check if there are books -->
     @if (!Model.Any())
     {
-        <p>Nenhum livro disponível.</p>
+        <p class="text-center text-muted">Nenhum livro disponível.</p>
     }
     else
     {
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Imagem</th>
-                    <th>Título</th>
-                    <th>Autor</th>
-                    <th>Ano</th>
-                    <th>Disponibilidade</th>
-                    <th>Ações</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var book in Model)
-                {
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="table-dark text-white" style="background-color: #6b4f4f;">
                     <tr>
-                        <td>
-                            @if (!string.IsNullOrEmpty(book.ImagemCaminho))
-                            {
-                                <img src="~/@book.ImagemCaminho" alt="Imagem de @book.Titulo" style="width: 100px; height: auto;" />
-                            }
-                        </td>
-                        <td>@book.Titulo</td>
-                        <td>@book.Autor</td>
-                        <td>@book.AnoPublicacao</td>
-                        <td>@(book.Disponivel ? "Sim" : "Não")</td>
-                        <td>
-                            <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-primary btn-sm">Editar</a>
-                            <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger btn-sm">Excluir</a>
-                        </td>
+                        <th scope="col">Imagem</th>
+                        <th scope="col">Título</th>
+                        <th scope="col">Autor</th>
+                        <th scope="col">Ano</th>
+                        <th scope="col" class="text-center">Ações</th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody style="background-color: #f5f3e6;">
+                    @foreach (var book in Model)
+                    {
+                        <tr>
+                            <td style="width: 120px;">
+                                @if (!string.IsNullOrEmpty(book.ImagemPath))
+                                {
+                                    <img src="~/Images/@book.ImagemPath" alt="Imagem de @book.Titulo" class="img-thumbnail" style="width: 100px; cursor: pointer;" onclick="showImageModal('/Images/@book.ImagemPath')" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Sem imagem</span>
+                                }
+                            </td>
+                            <td class="fw-bold" style="color: #6b4f4f;">@book.Titulo</td>
+                            <td>@book.Autor</td>
+                            <td>@book.AnoPublicacao</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-primary btn-sm me-2">
+                                    <i class="bi bi-pencil"></i> Editar
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger btn-sm">
+                                    <i class="bi bi-trash"></i> Excluir
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     }
 </div>

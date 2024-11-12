@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="Views\Account\AccessDenied.cshtml.cs" />
     <Compile Remove="Views\Books\Create.cshtml.cs" />
+    <Compile Remove="Views\Books\Details.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +20,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
 </Project>

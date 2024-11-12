@@ -19,7 +19,6 @@ namespace BooksManager.Migrations
                     Titulo = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     Autor = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     AnoPublicacao = table.Column<int>(type: "int", nullable: false),
-                    Disponivel = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {

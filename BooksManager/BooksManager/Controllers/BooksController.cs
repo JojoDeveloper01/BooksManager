@@ -4,16 +4,22 @@ using BibliotecaMVC.Data;
 using BibliotecaMVC.Models;
 using Microsoft.AspNetCore.Http;
 using static System.Reflection.Metadata.BlobBuilder;
+using System.IO;
+using System;
+using Microsoft.EntityFrameworkCore;
+using BooksManager.Models; // Update to match the namespace of Book
 
 namespace BibliotecaMVC.Controllers
 {
     public class BooksController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _webHostEnv;
 
-        public BooksController(ApplicationDbContext context)
+        public BooksController(ApplicationDbContext context, IWebHostEnvironment webHostEnv)
         {
             _context = context;
+            _webHostEnv = webHostEnv;  // Initialize _webHostEnv here
         }
 
         public IActionResult Index()
@@ -36,6 +42,13 @@ namespace BibliotecaMVC.Controllers
 
         // Outros métodos de criação, edição e exclusão de livros seguem a mesma lógica de verificação manual.
 
+        // GET: Books/Details/5
+        public IActionResult Details(int id)
+        {
+            var book = _context.Books.FirstOrDefault(b => b.Id == id);
+            if (book == null) return NotFound();
+            return View(book);
+        }
         public IActionResult Create()
         {
             if (HttpContext.Session.GetString("UserRole") != "Administrador")
@@ -50,48 +63,110 @@ namespace BibliotecaMVC.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Book b)
         {
-            string stringFileName = ImagemCaminho(b); // Assuming this method returns the image path as a string
+            // Save the image and get the path as a string
+            string stringFileName = UploadImage(b);
             var book = new Book
             {
                 Titulo = b.Titulo,
                 Autor = b.Autor,
                 AnoPublicacao = b.AnoPublicacao,
-                Disponivel = b.Disponivel,
-                ImagemCaminho = null // Optionally, use the actual path if storing the file path as a string
+                ImagemPath = stringFileName // Store the image file path as a string
             };
 
-            // Save the `book` entity to the database here if needed
-            // For example:
-            // _context.Books.Add(book);
-            // _context.SaveChanges();
+            // Save the `book` entity to the database
+            _context.Books.Add(book);
+            _context.SaveChanges();
 
-            return Ok(book); // Return the created book or another appropriate response
+            return RedirectToAction("Index");
         }
 
+        private string UploadImage(Book b)
+        {
+            string fileName = null;
+            if (b.Imagem != null)
+            {
+                // Use _webHostEnv to access the web root path
+                string uploadDir = Path.Combine(_webHostEnv.WebRootPath, "Images");
+                fileName = Guid.NewGuid().ToString() + "-" + b.Imagem.FileName;
+                string filePath = Path.Combine(uploadDir, fileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    b.Imagem.CopyTo(fileStream);
+                }
+            }
+            return fileName;
+        }
 
         // GET: Books/Edit/5
-        public IActionResult Edit(int id)
+        [HttpGet]
+        [ActionName("Edit")]
+        public IActionResult EditGet(int id)
         {
             var book = _context.Books.Find(id);
             if (book == null) return NotFound();
-            return View(book);
+            return View("Edit", book); // Explicitly return the "Edit" view
         }
 
         // POST: Books/Edit/5
         [HttpPost]
+        [ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Book book)
+        public async Task<IActionResult> EditPost(int id, Book book, IFormFile Imagem)
         {
             if (id != book.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
-                _context.Update(book);
-                await _context.SaveChangesAsync();
+                // Check if a new image has been uploaded
+                if (Imagem != null)
+                {
+                    // Delete the old image if it exists
+                    if (!string.IsNullOrEmpty(book.ImagemPath))
+                    {
+                        string oldImagePath = Path.Combine(_webHostEnv.WebRootPath, "Images", book.ImagemPath);
+                        if (System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
+
+                    // Upload the new image
+                    string uploadDir = Path.Combine(_webHostEnv.WebRootPath, "Images");
+                    string uniqueFileName = Guid.NewGuid().ToString() + "_" + Imagem.FileName;
+                    string filePath = Path.Combine(uploadDir, uniqueFileName);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await Imagem.CopyToAsync(fileStream);
+                    }
+
+                    // Update the ImagemPath with the new file name
+                    book.ImagemPath = uniqueFileName;
+                }
+
+                try
+                {
+                    // Update the book record in the database
+                    _context.Update(book);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.Books.Any(e => e.Id == book.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
                 return RedirectToAction(nameof(Index));
             }
-            return View(book);
+            return View("Edit", book); // Explicitly return the "Edit" view
         }
+
+
 
         // GET: Books/Delete/5
         public IActionResult Delete(int id)

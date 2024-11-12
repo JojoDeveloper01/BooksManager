@@ -1,15 +1,32 @@
-﻿@model BibliotecaMVC.Models.Book
+﻿@model BooksManager.Models.Book
 
 @{
     ViewData["Title"] = "Excluir Livro";
 }
 
-<h1>@ViewData["Title"]</h1>
+<div class="container mt-5">
+    <div class="card shadow-lg border-0" style="background-color: #f5f3e6;">
+        <div class="card-header text-white" style="background-color: #b23b3b;">
+            <h3 class="mb-0">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>@ViewData["Title"]
+            </h3>
+        </div>
+        <div class="card-body p-4">
+            <p class="fs-5 text-center" style="color: #6b4f4f;">
+                Tem certeza de que deseja excluir o livro "<strong>@Model.Titulo</strong>" de <strong>@Model.Autor</strong>?
+            </p>
 
-<p>Tem certeza de que deseja excluir o livro "@Model.Titulo" de @Model.Autor?</p>
+            <form asp-action="Delete" method="post" class="text-center mt-4">
+                <input type="hidden" asp-for="Id" />
 
-<form asp-action="Delete" method="post">
-    <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Sim, Excluir</button>
-    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
-</form>
+                <!-- Confirm and Cancel Buttons -->
+                <button type="submit" class="btn btn-danger me-3">
+                    <i class="bi bi-trash-fill"></i> Sim, Excluir
+                </button>
+                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Cancelar
+                </a>
+            </form>
+        </div>
+    </div>
+</div>

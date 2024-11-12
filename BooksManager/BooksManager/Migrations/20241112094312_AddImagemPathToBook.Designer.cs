@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BooksManager.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241111095138_AddImagemCaminhoToBook")]
-    partial class AddImagemCaminhoToBook
+    [Migration("20241112094312_AddImagemPathToBook")]
+    partial class AddImagemPathToBook
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,7 +40,10 @@ namespace BooksManager.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("ImagemCaminho")
+                    b.Property<bool>("Disponivel")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ImagemPath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

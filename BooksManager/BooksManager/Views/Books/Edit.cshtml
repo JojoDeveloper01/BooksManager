@@ -1,37 +1,72 @@
-﻿@model BibliotecaMVC.Models.Book
+﻿@model BooksManager.Models.Book
 
 @{
     ViewData["Title"] = "Editar Livro";
 }
 
-<h1>@ViewData["Title"]</h1>
+<div class="container mt-5">
+    <div class="card shadow-lg border-0" style="background-color: #f5f3e6;">
+        <div class="card-header text-white" style="background-color: #6b4f4f;">
+            <h3 class="mb-0">
+                <i class="bi bi-pencil-square me-2"></i>@ViewData["Title"]
+            </h3>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
 
-<form asp-action="Edit">
-    <div>
-        <label asp-for="Titulo"></label>
-        <input asp-for="Titulo" class="form-control" />
-        <span asp-validation-for="Titulo" class="text-danger"></span>
-    </div>
-    <div>
-        <label asp-for="Autor"></label>
-        <input asp-for="Autor" class="form-control" />
-        <span asp-validation-for="Autor" class="text-danger"></span>
-    </div>
-    <div>
-        <label asp-for="AnoPublicacao"></label>
-        <input asp-for="AnoPublicacao" class="form-control" />
-        <span asp-validation-for="AnoPublicacao" class="text-danger"></span>
-    </div>
-    <div>
-        <label asp-for="Disponivel"></label>
-        <select asp-for="Disponivel" class="form-control">
-            <option value="true">Sim</option>
-            <option value="false">Não</option>
-        </select>
-    </div>
-    <div>
-        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
-    </div>
-</form>
+                <!-- Book Title -->
+                <div class="mb-4">
+                    <label asp-for="Titulo" class="form-label fw-bold" style="color: #6b4f4f;">Título do Livro</label>
+                    <input asp-for="Titulo" class="form-control" placeholder="Digite o título do livro" />
+                    <span asp-validation-for="Titulo" class="text-danger"></span>
+                </div>
 
-<a href="@Url.Action("Index")" class="btn btn-secondary">Voltar para a lista</a>
+                <!-- Author -->
+                <div class="mb-4">
+                    <label asp-for="Autor" class="form-label fw-bold" style="color: #6b4f4f;">Autor</label>
+                    <input asp-for="Autor" class="form-control" placeholder="Digite o nome do autor" />
+                    <span asp-validation-for="Autor" class="text-danger"></span>
+                </div>
+
+                <!-- Publication Year -->
+                <div class="mb-4">
+                    <label asp-for="AnoPublicacao" class="form-label fw-bold" style="color: #6b4f4f;">Ano de Publicação</label>
+                    <input asp-for="AnoPublicacao" class="form-control" placeholder="Digite o ano de publicação" />
+                    <span asp-validation-for="AnoPublicacao" class="text-danger"></span>
+                </div>
+
+                <!-- Current Image Preview -->
+                <div class="mb-4">
+                    <label class="form-label fw-bold" style="color: #6b4f4f;">Imagem Atual</label>
+                    <div>
+                        @if (!string.IsNullOrEmpty(Model.ImagemPath))
+                        {
+                            <img src="~/Images/@Model.ImagemPath" alt="Imagem de @Model.Titulo" class="img-thumbnail" style="width: 150px; cursor: pointer;" onclick="showImageModal('/Images/@Model.ImagemPath')" />
+                        }
+                        else
+                        {
+                            <p class="text-muted">Sem imagem</p>
+                        }
+                    </div>
+                </div>
+
+                <!-- Update Image -->
+                <div class="mb-4">
+                    <label asp-for="Imagem" class="form-label fw-bold" style="color: #6b4f4f;">Atualizar Imagem</label>
+                    <input asp-for="Imagem" type="file" class="form-control" />
+                    <span asp-validation-for="Imagem" class="text-danger"></span>
+                </div>
+
+                <!-- Submit and Back Buttons -->
+                <div class="d-flex justify-content-between mt-4">
+                    <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i> Voltar para a lista
+                    </a>
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-save"></i> Salvar Alterações
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

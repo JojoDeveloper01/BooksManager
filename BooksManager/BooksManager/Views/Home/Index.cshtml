@@ -1,67 +1,31 @@
-﻿@{
+﻿@model IEnumerable<BooksManager.Models.Book>
+
+@{
     ViewData["Title"] = "Bem-vindo à Biblioteca Online";
 }
 
-<!-- Seção de boas-vindas -->
 <div class="container mt-5">
-    <!-- Seção de Apresentação com Tema de Livros -->
-    <div class="row mt-5">
-        <div class="col-lg-6">
-            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="Estante de Livros" class="img-fluid rounded shadow">
-        </div>
-        <div class="container mt-5">
-            <div class="text-center">
-                <h1 class="display-4 text-primary">Bem-vindo à Biblioteca Online</h1>
-                <p class="lead text-muted">Explore, registre-se e gerencie sua coleção de livros favorita.</p>
-            </div>
+    <h1 class="display-4 text-primary text-center">Bem-vindo à Biblioteca Online</h1>
+    <p class="lead text-center text-muted">Explore e descubra livros disponíveis na nossa coleção.</p>
 
-            <!-- Links de Registro e Login -->
-            @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Administrador")
+    <div class="mt-5">
+        <h2 class="text-center text-primary">Catálogo de Livros</h2>
+        <div class="row">
+            @foreach (var book in Model)
             {
-                <div class="row mt-4 justify-content-center">
-                    <div class="col-md-4">
-                        <a href="/Books/Index" class="btn btn-success btn-lg btn-block" role="button">Ver Catálogo de Livros</a>
-                    </div>
-                </div>
-            }
-            else
-            {
-                <div class="row mt-4 justify-content-center">
-                    <div class="col-md-4">
-                        <a href="/Account/Register" class="btn btn-outline-secondary btn-lg btn-block mb-2" role="button">Registrar-se</a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="/Account/Login" class="btn btn-primary btn-lg btn-block" role="button">Entrar</a>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="text-decoration-none text-dark">
+                                    @book.Titulo
+                                </a>
+                            </h5>
+                            <p class="card-text text-muted">@book.Autor</p>
+                        </div>
                     </div>
                 </div>
             }
         </div>
     </div>
 </div>
-
-<!-- Estilos personalizados para dar um toque especial ao tema de livros -->
-<style>
-    body {en
-        background-color: #f8f5f0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .btn-outline-secondary {
-        color: #5a4e4d;
-        border-color: #5a4e4d;
-    }
-
-        .btn-outline-secondary:hover {
-            background-color: #5a4e4d;
-            color: white;
-        }
-
-    .btn-primary {
-        background-color: #5a4e4d;
-        border-color: #5a4e4d;
-    }
-
-    .footer {
-        background-color: #2d2b29;
-    }
-</style>

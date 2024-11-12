@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BibliotecaMVC.Models;
+using BooksManager.Models; // Update to match the namespace of Book
 
 namespace BibliotecaMVC.Data
 {
