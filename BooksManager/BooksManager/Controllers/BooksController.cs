@@ -69,6 +69,7 @@ namespace BibliotecaMVC.Controllers
             {
                 Titulo = b.Titulo,
                 Autor = b.Autor,
+                Description = b.Description,
                 AnoPublicacao = b.AnoPublicacao,
                 ImagemPath = stringFileName // Store the image file path as a string
             };

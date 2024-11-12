@@ -29,6 +29,13 @@
                     <span asp-validation-for="Autor" class="text-danger"></span>
                 </div>
 
+                <!-- Description -->
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
                 <!-- Publication Year -->
                 <div class="mb-4">
                     <label asp-for="AnoPublicacao" class="form-label fw-bold" style="color: #6b4f4f;">Ano de Publicação</label>

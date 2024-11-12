@@ -5,23 +5,35 @@
 }
 
 <div class="container mt-5">
-    <h1 class="display-4 text-primary text-center">Bem-vindo à Biblioteca Online</h1>
-    <p class="lead text-center text-muted">Explore e descubra livros disponíveis na nossa coleção.</p>
+    <!-- Título de Boas-Vindas -->
+    <div class="text-center">
+        <h1 class="display-4" style="color: #5a4e4d;">Bem-vindo à Biblioteca Online</h1>
+        <p class="lead text-muted">Explore e descubra livros disponíveis na nossa coleção.</p>
+    </div>
 
+    <!-- Catálogo de Livros -->
     <div class="mt-5">
-        <h2 class="text-center text-primary">Catálogo de Livros</h2>
+        <h2 class="text-center" style="color: #5a4e4d;">Catálogo de Livros</h2>
+        <p class="text-center text-muted mb-4">Escolha seu próximo livro favorito</p>
         <div class="row">
             @foreach (var book in Model)
             {
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm">
+                        <!-- Imagem do Livro -->
+                        <img src="~/Images/@book.ImagemPath" class="card-img-top" alt="Capa de @book.Titulo">
                         <div class="card-body">
+                            <!-- Título e Autor do Livro -->
                             <h5 class="card-title">
-                                <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="text-decoration-none text-dark">
+                                <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="text-decoration-none" style="color: #5a4e4d;">
                                     @book.Titulo
                                 </a>
                             </h5>
-                            <p class="card-text text-muted">@book.Autor</p>
+                            <p class="card-text text-muted">Autor: @book.Autor</p>
+                        </div>
+                        <!-- Botão de Saber Mais -->
+                        <div class="card-footer bg-transparent border-top-0 text-center">
+                            <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="btn btn-outline-primary w-100">Saber mais</a>
                         </div>
                     </div>
                 </div>
@@ -29,3 +41,29 @@
         </div>
     </div>
 </div>
+
+<!-- Estilos personalizados -->
+<style>
+    h1, h2 {
+        color: #5a4e4d;
+    }
+
+    .card {
+        border: none;
+        background-color: #fafafa;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        color: #5a4e4d;
+    }
+
+    .card-footer .btn-outline-primary {
+        color: #5a4e4d;
+        border-color: #5a4e4d;
+    }
+    .card-footer .btn-outline-primary:hover {
+        background-color: #5a4e4d;
+        color: white;
+    }
+</style>

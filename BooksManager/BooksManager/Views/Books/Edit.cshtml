@@ -23,9 +23,17 @@
 
                 <!-- Author -->
                 <div class="mb-4">
-                    <label asp-for="Autor" class="form-label fw-bold" style="color: #6b4f4f;">Autor</label>
-                    <input asp-for="Autor" class="form-control" placeholder="Digite o nome do autor" />
-                    <span asp-validation-for="Autor" class="text-danger"></span>
+                    <label asp-for="Description" class="form-label fw-bold"></label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+
+                <!-- Description -->
+                <div class="mb-4">
+                    <label asp-for="Description" class="form-label fw-bold" style="color: #6b4f4f;">Description</label>
+                    <input asp-for="Description" class="form-control" placeholder="Digite a description" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
                 <!-- Publication Year -->

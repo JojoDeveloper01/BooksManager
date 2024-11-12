@@ -6,31 +6,32 @@
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="card shadow-sm">
-                <div class="card-body">
-                    <h3 class="card-title text-center mb-4">Registrar-se</h3>
-
+            <div class="card shadow-lg border-0" style="background-color: #f5f3e6;">
+                <div class="card-body p-5">
+                    <h3 class="card-title text-center mb-4" style="color: #5a4e4d;">
+                        <i class="bi bi-person-plus-fill me-2"></i>Registrar-se
+                    </h3>
                     <form asp-action="Register">
                         <div class="form-group mb-3">
-                            <label asp-for="Nome">Nome</label>
+                            <label asp-for="Nome" style="color: #6b4f4f;">Nome</label>
                             <input asp-for="Nome" class="form-control" placeholder="Digite seu nome" required />
                             <span asp-validation-for="Nome" class="text-danger"></span>
                         </div>
 
                         <div class="form-group mb-3">
-                            <label asp-for="Email">Email</label>
+                            <label asp-for="Email" style="color: #6b4f4f;">Email</label>
                             <input asp-for="Email" type="email" class="form-control" placeholder="Digite seu email" required />
                             <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
 
                         <div class="form-group mb-3">
-                            <label asp-for="PasswordHash">Senha</label>
+                            <label asp-for="PasswordHash" style="color: #6b4f4f;">Senha</label>
                             <input asp-for="PasswordHash" type="password" class="form-control" placeholder="Digite sua senha" required />
                             <span asp-validation-for="PasswordHash" class="text-danger"></span>
                         </div>
 
                         <div class="form-group mb-4">
-                            <label asp-for="Role">Role</label>
+                            <label asp-for="Role" style="color: #6b4f4f;">Função</label>
                             <select asp-for="Role" class="form-control">
                                 <option value="" disabled selected>Selecione uma função</option>
                                 <option>Administrador</option>
@@ -39,7 +40,9 @@
                             <span asp-validation-for="Role" class="text-danger"></span>
                         </div>
 
-                        <button type="submit" class="btn btn-success btn-block w-100">Registrar</button>
+                        <button type="submit" class="btn btn-success w-100">
+                            <i class="bi bi-person-check-fill"></i> Registrar
+                        </button>
                     </form>
                 </div>
             </div>

@@ -1,5 +1,13 @@
 ﻿@model string
 
-<h2>Acesso Negado</h2>
-<p>Desculpe, você não tem permissão para acessar esta página.</p>
-<a href="@Url.Action("Index", "Home")" class="btn btn-primary">Voltar para a Página Inicial</a>
+<div class="container mt-5">
+    <div class="text-center">
+        <h2 class="display-4 text-danger mb-3">
+            <i class="bi bi-exclamation-circle-fill"></i> Acesso Negado
+        </h2>
+        <p class="lead text-muted">Desculpe, você não tem permissão para acessar esta página.</p>
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary mt-4">
+            <i class="bi bi-arrow-left"></i> Voltar para a Página Inicial
+        </a>
+    </div>
+</div>

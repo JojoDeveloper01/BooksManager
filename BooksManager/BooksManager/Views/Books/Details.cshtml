@@ -1,17 +1,19 @@
 ﻿@model BooksManager.Models.Book
 
-<div class="container mt-5">
-    <div class="card shadow">
-        <div class="card-header bg-primary text-white">
-            <h3>@Model.Titulo</h3>
+<div class="container m-auto">
+    <div class="card shadow-lg border-0" style="background-color: #f5f3e6;">
+        <div class="card-header text-white" style="background-color: #6b4f4f;">
+            <h3 class="mb-0">
+                <i class="bi bi-book me-2"></i>@Model.Titulo
+            </h3>
         </div>
         <div class="card-body">
             <div class="row">
-                <!-- Book Image -->
-                <div class="col-md-4 text-center">
+                <!-- Imagem do Livro -->
+                <div class="col-md-4 text-center mb-4">
                     @if (!string.IsNullOrEmpty(Model.ImagemPath))
                     {
-                        <img src="~/Images/@Model.ImagemPath" alt="Imagem de @Model.Titulo" class="img-fluid rounded" style="max-height: 300px;">
+                        <img src="~/Images/@Model.ImagemPath" alt="Imagem de @Model.Titulo" class="img-fluid rounded shadow-sm" style="max-height: 300px;">
                     }
                     else
                     {
@@ -19,17 +21,43 @@
                     }
                 </div>
 
-                <!-- Book Details -->
+                <!-- Detalhes do Livro -->
                 <div class="col-md-8">
-                    <h4 class="text-muted">Autor: @Model.Autor</h4>
+                    <h4 class="text-muted mb-3">Autor: <span style="color: #5a4e4d;">@Model.Autor</span></h4>
                     <p><strong>Ano de Publicação:</strong> @Model.AnoPublicacao</p>
-                  @*   <p class="mt-4">@Model.Descricao</p> *@
+                    <p><strong>Descrição:</strong> <span class="text-muted">@Model.Description ?? "Nenhuma descrição disponível."</span></p>
                 </div>
             </div>
 
-            <div class="mt-4">
-                <a href="@Url.Action("Index", "Books")" class="btn btn-secondary">Voltar ao Catálogo</a>
+            <!-- Botão de Navegação -->
+            <div class="mt-4 text-center">
+                <a href="/" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left"></i> Voltar ao Catálogo
+                </a>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Estilos personalizados -->
+<style>
+    .card {
+        background-color: #fafafa;
+    }
+
+    .card-header {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .btn-outline-secondary {
+        color: #5a4e4d;
+        border-color: #5a4e4d;
+    }
+    .btn-outline-secondary:hover {
+        background-color: #5a4e4d;
+        color: white;
+    }
+</style>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PasKNVfzMzZd1cfseDS3yG1/ubkkHGPmAjhuE5xOSVg=",
+  "Hash": "vNzgUQHbQxsCcTRN9YLT6m+JEp4s71th6X9q6FPJ4VI=",
   "Source": "BooksManager",
   "BasePath": "_content/BooksManager",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\5bc13422-0b44-4614-86b9-6d930265aebf-aaa.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg",
+      "SourceId": "BooksManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "BasePath": "_content/BooksManager",
+      "RelativePath": "Images/71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg"
     },
     {
       "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\aabfea64-9002-4a1e-b7f5-40fe2857ade3-aaa1.jpg",
