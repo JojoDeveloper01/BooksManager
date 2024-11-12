@@ -48,6 +48,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\0d81b89e-43de-412b-9177-bd42c33b0c24-Captura de ecrã 2024-11-11 125204.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BooksManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BooksManager</BasePath>
+      <RelativePath>Images/0d81b89e-43de-412b-9177-bd42c33b0c24-Captura de ecrã 2024-11-11 125204.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\0d81b89e-43de-412b-9177-bd42c33b0c24-Captura de ecrã 2024-11-11 125204.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\34fc9b32-716c-4553-86b5-588e4f366b7e_aaa.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BooksManager</SourceId>
@@ -112,6 +128,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\816f852d-1dcd-4e64-a190-4674fec45614-Captura de ecrã 2024-10-29 152238.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BooksManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BooksManager</BasePath>
+      <RelativePath>Images/816f852d-1dcd-4e64-a190-4674fec45614-Captura de ecrã 2024-10-29 152238.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\816f852d-1dcd-4e64-a190-4674fec45614-Captura de ecrã 2024-10-29 152238.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\aabfea64-9002-4a1e-b7f5-40fe2857ade3-aaa1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BooksManager</SourceId>
@@ -127,6 +159,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\aabfea64-9002-4a1e-b7f5-40fe2857ade3-aaa1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\c111f7a7-5d3b-4a42-a2f0-bfbef6c59166-Captura de ecrã 2024-10-29 152223.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BooksManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BooksManager</BasePath>
+      <RelativePath>Images/c111f7a7-5d3b-4a42-a2f0-bfbef6c59166-Captura de ecrã 2024-10-29 152223.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\c111f7a7-5d3b-4a42-a2f0-bfbef6c59166-Captura de ecrã 2024-10-29 152223.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ca6cdc5e-ec07-4a40-ae59-9b5483b91860-aaa123.jpg))">
       <SourceType>Package</SourceType>
@@ -159,6 +207,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\e11e4a10-de0e-49c9-9132-70c2ca448f16_aaa12.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ef3ba2c4-4411-437d-bd96-a2d952f6cbdf-Captura de ecrã 2024-10-29 152223.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BooksManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BooksManager</BasePath>
+      <RelativePath>Images/ef3ba2c4-4411-437d-bd96-a2d952f6cbdf-Captura de ecrã 2024-10-29 152223.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\ef3ba2c4-4411-437d-bd96-a2d952f6cbdf-Captura de ecrã 2024-10-29 152223.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\f50a88e2-6b1a-47ac-abe7-48576026d651-Captura de ecrã 2024-10-29 152304.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BooksManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BooksManager</BasePath>
+      <RelativePath>Images/f50a88e2-6b1a-47ac-abe7-48576026d651-Captura de ecrã 2024-10-29 152304.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\f50a88e2-6b1a-47ac-abe7-48576026d651-Captura de ecrã 2024-10-29 152304.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\f564b634-7e3b-47e6-9a51-11e827491c95-aaa12.jpg))">
       <SourceType>Package</SourceType>

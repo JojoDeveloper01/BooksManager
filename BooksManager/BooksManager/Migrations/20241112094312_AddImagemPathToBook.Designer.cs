@@ -40,9 +40,6 @@ namespace BooksManager.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<bool>("Disponivel")
-                        .HasColumnType("bit");
-
                     b.Property<string>("ImagemPath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

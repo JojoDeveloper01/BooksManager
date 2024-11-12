@@ -7,7 +7,7 @@
 <div class="container mt-5">
     <div class="card shadow-lg border-0" style="background-color: #f5f3e6;">
         <div class="card-header text-white" style="background-color: #6b4f4f;">
-            <h3 class="mb-0">
+            <h3 class="mb-0 text-white">
                 <i class="bi bi-pencil-square me-2"></i>@ViewData["Title"]
             </h3>
         </div>
@@ -23,16 +23,16 @@
 
                 <!-- Author -->
                 <div class="mb-4">
-                    <label asp-for="Description" class="form-label fw-bold"></label>
-                    <textarea asp-for="Description" class="form-control"></textarea>
-                    <span asp-validation-for="Description" class="text-danger"></span>
+                    <label asp-for="Autor" class="form-label fw-bold"></label>
+                    <input asp-for="Autor" class="form-control" placeholder="Autor" />
+                    <span asp-validation-for="Autor" class="text-danger"></span>
                 </div>
 
 
                 <!-- Description -->
-                <div class="mb-4">
-                    <label asp-for="Description" class="form-label fw-bold" style="color: #6b4f4f;">Description</label>
-                    <input asp-for="Description" class="form-control" placeholder="Digite a description" />
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label">Descrição</label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
@@ -70,7 +70,7 @@
                     <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
                         <i class="bi bi-arrow-left"></i> Voltar para a lista
                     </a>
-                    <button type="submit" class="btn btn-success">
+                    <button type="submit" class="btn btn-primary">
                         <i class="bi bi-save"></i> Salvar Alterações
                     </button>
                 </div>

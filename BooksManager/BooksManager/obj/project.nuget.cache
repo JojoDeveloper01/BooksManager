@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L1A0R0nJmYM=",
+  "dgSpecHash": "heWn/CKlWvU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\BooksManager.csproj",
+  "projectFilePath": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\BooksManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2222116\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\2222116\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

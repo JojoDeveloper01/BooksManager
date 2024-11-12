@@ -13,33 +13,64 @@
 
     <!-- Catálogo de Livros -->
     <div class="mt-5">
-        <h2 class="text-center" style="color: #5a4e4d;">Catálogo de Livros</h2>
-        <p class="text-center text-muted mb-4">Escolha seu próximo livro favorito</p>
-        <div class="row">
-            @foreach (var book in Model)
-            {
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <!-- Imagem do Livro -->
-                        <img src="~/Images/@book.ImagemPath" class="card-img-top" alt="Capa de @book.Titulo">
-                        <div class="card-body">
-                            <!-- Título e Autor do Livro -->
-                            <h5 class="card-title">
-                                <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="text-decoration-none" style="color: #5a4e4d;">
-                                    @book.Titulo
-                                </a>
-                            </h5>
-                            <p class="card-text text-muted">Autor: @book.Autor</p>
-                        </div>
-                        <!-- Botão de Saber Mais -->
-                        <div class="card-footer bg-transparent border-top-0 text-center">
-                            <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="btn btn-outline-primary w-100">Saber mais</a>
+        @if (!Model.Any())
+        {
+            <!-- Message if no books are available -->
+            <div class="text-center text-muted">
+                <p style="font-weight:bolder">Nenhum livro disponível no momento. Por favor, volte mais tarde!</p>
+            </div>
+        }
+        else
+        {
+            <h2 class="text-center" style="color: #5a4e4d;">Catálogo de Livros</h2>
+            <p class="text-center text-muted mb-4">Escolha seu próximo livro favorito</p>
+
+            <!-- Display books if available -->
+            <div class="row">
+                @foreach (var book in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <!-- Imagem do Livro -->
+                            <img src="~/Images/@book.ImagemPath" class="card-img-top" alt="Capa de @book.Titulo">
+                            <div class="card-body">
+                                <!-- Título e Autor do Livro -->
+                                <h5 class="card-title">
+                                    <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="text-decoration-none" style="color: #5a4e4d;">
+                                        @book.Titulo
+                                    </a>
+                                </h5>
+                                <p class="card-text text-muted">Autor: @book.Autor</p>
+                            </div>
+                            <!-- Botão de Saber Mais -->
+                            <div class="card-footer bg-transparent border-top-0 text-center">
+                                <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="btn btn-outline-primary w-100">Saber mais</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            }
+                }
+            </div>
+        }
+
+
+        <!-- Show login and register buttons if the user is not logged in -->
+        @if (ViewContext.HttpContext.Session.GetString("UserId") == null)
+        {
+            <div class="text-center mt-4">
+                <p class="text-muted">Para acessar mais recursos, faça login ou registre-se:</p>
+                <a href="/Account/Login" class="btn btn-primary me-2">Iniciar Sessão</a>
+                <a href="/Account/Register" class="btn btn-secondary">Registrar-se</a>
+            </div>
+        } 
+        @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Administrador")
+        {
+        <div class="text-center mt-4">
+            <a href="/Books" class="btn btn-primary">Acessar Catálogo de Admin</a>
         </div>
+        }
     </div>
+
+
 </div>
 
 <!-- Estilos personalizados -->

@@ -119,13 +119,23 @@ namespace BibliotecaMVC.Controllers
 
             if (ModelState.IsValid)
             {
+                // Fetch the existing book from the database
+                var existingBook = await _context.Books.FindAsync(id);
+                if (existingBook == null) return NotFound();
+
+                // Update the properties individually
+                existingBook.Titulo = book.Titulo;
+                existingBook.Autor = book.Autor;
+                existingBook.AnoPublicacao = book.AnoPublicacao;
+                existingBook.Description = book.Description; // Update Description
+
                 // Check if a new image has been uploaded
                 if (Imagem != null)
                 {
                     // Delete the old image if it exists
-                    if (!string.IsNullOrEmpty(book.ImagemPath))
+                    if (!string.IsNullOrEmpty(existingBook.ImagemPath))
                     {
-                        string oldImagePath = Path.Combine(_webHostEnv.WebRootPath, "Images", book.ImagemPath);
+                        string oldImagePath = Path.Combine(_webHostEnv.WebRootPath, "Images", existingBook.ImagemPath);
                         if (System.IO.File.Exists(oldImagePath))
                         {
                             System.IO.File.Delete(oldImagePath);
@@ -142,18 +152,18 @@ namespace BibliotecaMVC.Controllers
                     }
 
                     // Update the ImagemPath with the new file name
-                    book.ImagemPath = uniqueFileName;
+                    existingBook.ImagemPath = uniqueFileName;
                 }
 
                 try
                 {
-                    // Update the book record in the database
-                    _context.Update(book);
+                    // Save the updated book record to the database
+                    _context.Update(existingBook);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!_context.Books.Any(e => e.Id == book.Id))
+                    if (!_context.Books.Any(e => e.Id == existingBook.Id))
                     {
                         return NotFound();
                     }

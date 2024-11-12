@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vNzgUQHbQxsCcTRN9YLT6m+JEp4s71th6X9q6FPJ4VI=",
+  "Hash": "Si61bkc89CfoT5F45LtDer23p3yKru2Ka9vpePubw2Y=",
   "Source": "BooksManager",
   "BasePath": "_content/BooksManager",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BooksManager\\wwwroot",
       "Source": "BooksManager",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BooksManager.styles.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BooksManager.styles.css",
       "SourceId": "BooksManager",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "BooksManager.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BooksManager.styles.css"
+      "OriginalItemSpec": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BooksManager.styles.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BooksManager.bundle.scp.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BooksManager.bundle.scp.css",
       "SourceId": "BooksManager",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "BooksManager.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BooksManager.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BooksManager.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\css\\site.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\favicon.ico",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\34fc9b32-716c-4553-86b5-588e4f366b7e_aaa.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\0d81b89e-43de-412b-9177-bd42c33b0c24-Captura de ecrã 2024-11-11 125204.png",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "BasePath": "_content/BooksManager",
+      "RelativePath": "Images/0d81b89e-43de-412b-9177-bd42c33b0c24-Captura de ecrã 2024-11-11 125204.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0d81b89e-43de-412b-9177-bd42c33b0c24-Captura de ecrã 2024-11-11 125204.png"
+    },
+    {
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\34fc9b32-716c-4553-86b5-588e4f366b7e_aaa.jpg",
+      "SourceId": "BooksManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/34fc9b32-716c-4553-86b5-588e4f366b7e_aaa.jpg",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\34fc9b32-716c-4553-86b5-588e4f366b7e_aaa.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\4cd96460-6b69-4595-9d98-a6bccff78c70-aaa132.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\4cd96460-6b69-4595-9d98-a6bccff78c70-aaa132.jpg",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/4cd96460-6b69-4595-9d98-a6bccff78c70-aaa132.jpg",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\4cd96460-6b69-4595-9d98-a6bccff78c70-aaa132.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\5bc13422-0b44-4614-86b9-6d930265aebf-aaa.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\5bc13422-0b44-4614-86b9-6d930265aebf-aaa.jpg",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/5bc13422-0b44-4614-86b9-6d930265aebf-aaa.jpg",
       "AssetKind": "All",
@@ -150,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\5bc13422-0b44-4614-86b9-6d930265aebf-aaa.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg",
       "AssetKind": "All",
@@ -169,10 +188,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\71262ca6-1d15-4a30-89aa-58bbfa86be22-aaa.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\aabfea64-9002-4a1e-b7f5-40fe2857ade3-aaa1.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\816f852d-1dcd-4e64-a190-4674fec45614-Captura de ecrã 2024-10-29 152238.png",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "BasePath": "_content/BooksManager",
+      "RelativePath": "Images/816f852d-1dcd-4e64-a190-4674fec45614-Captura de ecrã 2024-10-29 152238.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\816f852d-1dcd-4e64-a190-4674fec45614-Captura de ecrã 2024-10-29 152238.png"
+    },
+    {
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\aabfea64-9002-4a1e-b7f5-40fe2857ade3-aaa1.jpg",
+      "SourceId": "BooksManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/aabfea64-9002-4a1e-b7f5-40fe2857ade3-aaa1.jpg",
       "AssetKind": "All",
@@ -188,10 +226,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\aabfea64-9002-4a1e-b7f5-40fe2857ade3-aaa1.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\ca6cdc5e-ec07-4a40-ae59-9b5483b91860-aaa123.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\c111f7a7-5d3b-4a42-a2f0-bfbef6c59166-Captura de ecrã 2024-10-29 152223.png",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "BasePath": "_content/BooksManager",
+      "RelativePath": "Images/c111f7a7-5d3b-4a42-a2f0-bfbef6c59166-Captura de ecrã 2024-10-29 152223.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c111f7a7-5d3b-4a42-a2f0-bfbef6c59166-Captura de ecrã 2024-10-29 152223.png"
+    },
+    {
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\ca6cdc5e-ec07-4a40-ae59-9b5483b91860-aaa123.jpg",
+      "SourceId": "BooksManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/ca6cdc5e-ec07-4a40-ae59-9b5483b91860-aaa123.jpg",
       "AssetKind": "All",
@@ -207,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\ca6cdc5e-ec07-4a40-ae59-9b5483b91860-aaa123.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\e11e4a10-de0e-49c9-9132-70c2ca448f16_aaa12.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\e11e4a10-de0e-49c9-9132-70c2ca448f16_aaa12.jpg",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/e11e4a10-de0e-49c9-9132-70c2ca448f16_aaa12.jpg",
       "AssetKind": "All",
@@ -226,10 +283,48 @@
       "OriginalItemSpec": "wwwroot\\Images\\e11e4a10-de0e-49c9-9132-70c2ca448f16_aaa12.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\f564b634-7e3b-47e6-9a51-11e827491c95-aaa12.jpg",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\ef3ba2c4-4411-437d-bd96-a2d952f6cbdf-Captura de ecrã 2024-10-29 152223.png",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "BasePath": "_content/BooksManager",
+      "RelativePath": "Images/ef3ba2c4-4411-437d-bd96-a2d952f6cbdf-Captura de ecrã 2024-10-29 152223.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ef3ba2c4-4411-437d-bd96-a2d952f6cbdf-Captura de ecrã 2024-10-29 152223.png"
+    },
+    {
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\f50a88e2-6b1a-47ac-abe7-48576026d651-Captura de ecrã 2024-10-29 152304.png",
+      "SourceId": "BooksManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "BasePath": "_content/BooksManager",
+      "RelativePath": "Images/f50a88e2-6b1a-47ac-abe7-48576026d651-Captura de ecrã 2024-10-29 152304.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f50a88e2-6b1a-47ac-abe7-48576026d651-Captura de ecrã 2024-10-29 152304.png"
+    },
+    {
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\Images\\f564b634-7e3b-47e6-9a51-11e827491c95-aaa12.jpg",
+      "SourceId": "BooksManager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "Images/f564b634-7e3b-47e6-9a51-11e827491c95-aaa12.jpg",
       "AssetKind": "All",
@@ -245,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\f564b634-7e3b-47e6-9a51-11e827491c95-aaa12.jpg"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\js\\site.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -264,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -283,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -302,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -321,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -340,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -359,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -435,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -454,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -473,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -492,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -511,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -587,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -606,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -625,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -644,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -663,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -739,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -758,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -777,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -796,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -815,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -834,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -853,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -872,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -891,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -910,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -929,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -948,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -967,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -986,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1005,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1024,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1043,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1062,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1081,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1100,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1119,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1138,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1157,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1176,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1195,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1214,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1233,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1252,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1271,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1290,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1309,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1328,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BooksManager",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\EscolaDigital\\RC\\12_Ano\\Gabriel\\BooksMnager\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2222116\\OneDrive - Escola Digital\\Mediateca\\BooksManager\\BooksManager\\BooksManager\\wwwroot\\",
       "BasePath": "_content/BooksManager",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

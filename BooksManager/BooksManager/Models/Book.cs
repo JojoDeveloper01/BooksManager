@@ -19,7 +19,7 @@ namespace BooksManager.Models
         [Required]
         [StringLength(100)]
 
-        public int Description { get; set; }
+        public string? Description { get; set; }
 
         [Required]
         public int AnoPublicacao { get; set; }
