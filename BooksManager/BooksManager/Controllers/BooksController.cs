@@ -113,26 +113,27 @@ namespace BibliotecaMVC.Controllers
         [HttpPost]
         [ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditPost(int id, Book book, IFormFile Imagem)
+        public async Task<IActionResult> EditPost(int id, Book book, IFormFile? Imagem) // IFormFile é opcional aqui
         {
             if (id != book.Id) return NotFound();
 
+            // A validação ModelState.IsValid não deve considerar a propriedade 'Imagem' obrigatória
             if (ModelState.IsValid)
             {
-                // Fetch the existing book from the database
+                // Buscar o livro existente no banco de dados
                 var existingBook = await _context.Books.FindAsync(id);
                 if (existingBook == null) return NotFound();
 
-                // Update the properties individually
+                // Atualizar as propriedades individualmente
                 existingBook.Titulo = book.Titulo;
                 existingBook.Autor = book.Autor;
                 existingBook.AnoPublicacao = book.AnoPublicacao;
-                existingBook.Description = book.Description; // Update Description
+                existingBook.Description = book.Description; // Atualizar Descrição
 
-                // Check if a new image has been uploaded
+                // Verificar se uma nova imagem foi carregada
                 if (Imagem != null)
                 {
-                    // Delete the old image if it exists
+                    // Apagar a imagem antiga, se ela existir
                     if (!string.IsNullOrEmpty(existingBook.ImagemPath))
                     {
                         string oldImagePath = Path.Combine(_webHostEnv.WebRootPath, "Images", existingBook.ImagemPath);
@@ -142,7 +143,7 @@ namespace BibliotecaMVC.Controllers
                         }
                     }
 
-                    // Upload the new image
+                    // Fazer o upload da nova imagem
                     string uploadDir = Path.Combine(_webHostEnv.WebRootPath, "Images");
                     string uniqueFileName = Guid.NewGuid().ToString() + "_" + Imagem.FileName;
                     string filePath = Path.Combine(uploadDir, uniqueFileName);
@@ -151,13 +152,13 @@ namespace BibliotecaMVC.Controllers
                         await Imagem.CopyToAsync(fileStream);
                     }
 
-                    // Update the ImagemPath with the new file name
+                    // Atualizar o ImagemPath com o nome do novo arquivo
                     existingBook.ImagemPath = uniqueFileName;
                 }
 
                 try
                 {
-                    // Save the updated book record to the database
+                    // Salvar as alterações no banco de dados
                     _context.Update(existingBook);
                     await _context.SaveChangesAsync();
                 }
@@ -174,10 +175,8 @@ namespace BibliotecaMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View("Edit", book); // Explicitly return the "Edit" view
+            return View("Edit", book); // Retornar explicitamente para a View "Edit"
         }
-
-
 
         // GET: Books/Delete/5
         public IActionResult Delete(int id)

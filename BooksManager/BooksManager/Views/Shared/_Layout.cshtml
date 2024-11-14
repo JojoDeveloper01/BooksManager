@@ -17,6 +17,17 @@
             grid-template-rows: auto 1fr auto;
         }
 
+        a:hover{
+            color:#fff !important;
+        }
+
+        .img-thumbnail {
+            padding: 0;
+            width: 80%;
+            height: 5rem;
+            cursor: pointer;
+            object-fit: cover;
+        }
         .navbar {
             background-color: #4e342e;
         }
@@ -51,6 +62,42 @@
         h1, h2, h3 {
             font-family: 'Merriweather', serif;
             color: #4e342e;
+        }
+
+        img{
+            object-fit: cover;
+        }
+
+        .modal-body {
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Estilizar o fundo do modal e botões */
+        .modal-content {
+            border-radius: 1.25rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .modal-header {
+            border-bottom: none;
+        }
+
+        .modal-footer {
+            border-top: none;
+        }
+
+        /* Botão de fechar no cabeçalho */
+        .btn-close-white {
+            filter: invert(1);
+        }
+
+        .modal-lg {
+            max-width: 80%; /* Aumenta o tamanho do modal */
+        }
+
+        .modal-body {
+            padding: 15px;
         }
 
         .btn-primary {
@@ -126,13 +173,23 @@
     <!-- Image Modal for Viewing Book Cover Images -->
     <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
+            <div class="modal-content rounded-4 shadow-lg" style="border: none; overflow: hidden;">
+                <!-- Cabeçalho do Modal -->
+                <div class="modal-header text-white position-relative" style="background: linear-gradient(135deg, #6b4f4f, #4e342e); padding: 1.5rem;">
                     <h5 class="modal-title" id="imageModalLabel">Visualizar Imagem</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center">
-                    <img id="modalImage" src="" alt="Imagem do Livro" class="img-fluid" />
+
+                <!-- Corpo do Modal -->
+                <div class="modal-body text-center p-4" style="background-color: #f9f7f1;">
+                    <img id="modalImage" src="" alt="Imagem do Livro" class="img-fluid rounded-3 shadow" style="max-height: 20rem; width: 100%; transition: transform 0.3s ease-in-out;" />
+                </div>
+
+                <!-- Rodapé do Modal -->
+                <div class="modal-footer d-flex justify-content-center border-0" style="background-color: #f1ede9;">
+                    <button type="button" class="btn btn-outline-dark rounded-pill px-4" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
                 </div>
             </div>
         </div>

@@ -9,23 +9,23 @@
         <i class="bi bi-journal-bookmark me-2"></i>@ViewData["Title"]
     </h1>
 
-    <!-- Add Book Button -->
+    <!-- Botão de Adicionar Livro -->
     <div class="text-end mb-4">
-        <a asp-action="Create" class="btn btn-primary">
+        <a asp-action="Create" class="btn btn-primary rounded-pill shadow-sm" style="background-color: #8d6e63; border: none;">
             <i class="bi bi-plus-circle"></i> Adicionar Livro
         </a>
     </div>
 
-    <!-- Check if there are books -->
+    <!-- Verifica se há livros -->
     @if (!Model.Any())
     {
         <p class="text-center text-muted">Nenhum livro disponível.</p>
     }
     else
     {
-        <div class="table-responsive">
+        <div class="table-responsive rounded shadow-sm" style="overflow: hidden;">
             <table class="table table-hover align-middle">
-                <thead class="table-dark text-white" style="background-color: #6b4f4f;">
+                <thead class="table-dark text-white" style="background-color: #4e342e;">
                     <tr>
                         <th scope="col">Imagem</th>
                         <th scope="col">Título</th>
@@ -34,14 +34,14 @@
                         <th scope="col" class="text-center">Ações</th>
                     </tr>
                 </thead>
-                <tbody style="background-color: #f5f3e6;">
+                <tbody style="background-color: #f9f7f1;">
                     @foreach (var book in Model)
                     {
-                        <tr>
-                            <td style="width: 120px;">
+                        <tr class="shadow-sm" style="transition: transform 0.2s ease-in-out;">
+                            <td>
                                 @if (!string.IsNullOrEmpty(book.ImagemPath))
                                 {
-                                    <img src="~/Images/@book.ImagemPath" alt="Imagem de @book.Titulo" class="img-thumbnail" style="width: 100px; cursor: pointer;" onclick="showImageModal('/Images/@book.ImagemPath')" />
+                                    <img src="~/Images/@book.ImagemPath" alt="Imagem de @book.Titulo" class="img-thumbnail rounded shadow-sm" onclick="showImageModal('/Images/@book.ImagemPath')" />
                                 }
                                 else
                                 {
@@ -52,10 +52,10 @@
                             <td>@book.Autor</td>
                             <td>@book.AnoPublicacao</td>
                             <td class="text-center">
-                                <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-primary btn-sm me-2">
+                                <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-outline-primary btn-sm rounded-pill me-2" style="border-color: #8d6e63; color: #8d6e63;">
                                     <i class="bi bi-pencil"></i> Editar
                                 </a>
-                                <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-danger btn-sm">
+                                <a asp-action="Delete" asp-route-id="@book.Id" class="btn btn-outline-dark btn-sm rounded-pill" style="border-color: #4e342e; color: #4e342e;">
                                     <i class="bi bi-trash"></i> Excluir
                                 </a>
                             </td>
@@ -66,3 +66,34 @@
         </div>
     }
 </div>
+
+<!-- Estilos personalizados -->
+<style>
+    /* Estilo dos títulos e botões */
+    .card-header {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .table > :not(caption) > * > *{
+        padding: 1rem;
+    }
+
+    .btn-primary,
+    .btn-outline-primary {
+        color: #ffffff;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #8d6e63;
+            border-color: #8d6e63;
+            color: #ffffff;
+        }
+
+    .btn-outline-dark:hover {
+        background-color: #4e342e;
+        border-color: #4e342e;
+        color: #ffffff;
+    }
+</style>
