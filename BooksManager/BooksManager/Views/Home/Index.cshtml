@@ -5,18 +5,16 @@
 }
 
 <style>
-    /* Estilo para tornar o cartão clicável */
     .card-link {
         text-decoration: none;
         color: inherit;
     }
 
-    img{
-    object-fit:cover;
-    height: 16rem;
+    img {
+        object-fit: cover;
+        height: 16rem;
     }
 
-    /* Animação ao passar o mouse sobre o cartão */
     .clickable-card {
         transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
     }
@@ -25,7 +23,6 @@
             transform: scale(1.05);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
         }
-
 </style>
 
 <div class="container my-5">
@@ -55,7 +52,6 @@
     <div class="my-5">
         @if (!Model.Any())
         {
-            <!-- Message if no books are available -->
             <div class="text-center text-muted">
                 <p style="font-weight:bolder">Nenhum livro disponível no momento. Por favor, volte mais tarde!</p>
             </div>
@@ -65,17 +61,14 @@
             <h2 class="text-center" style="color: #5a4e4d;">Catálogo de Livros</h2>
             <p class="text-center text-muted mb-4">Escolha seu próximo livro favorito</p>
 
-            <!-- Display books if available -->
             <div class="row">
                 @foreach (var book in Model)
                 {
                     <div class="col-md-4 mb-4">
-                        <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="text-decoration-none card-link">
+                        <a asp-action="Details" asp-controller="Books" asp-route-id="@book.Id" class="text-decoration-none card-link" data-view-id="book-@book.Id">
                             <div class="card h-100 shadow-sm clickable-card">
-                                <!-- Imagem do Livro -->
-                                <img src="~/Images/@book.ImagemPath" class="card-img-top" alt="Capa de @book.Titulo">
+                                <img src="~/Images/@book.ImagemPath" class="card-img-top view-transition-name" data-view-id="book-@book.Id" alt="Capa de @book.Titulo">
                                 <div class="card-body">
-                                    <!-- Título e Autor do Livro -->
                                     <h5 class="card-title" style="color: #5a4e4d;">@book.Titulo</h5>
                                     <p class="card-text text-muted">Autor: @book.Autor</p>
                                 </div>
@@ -86,32 +79,17 @@
             </div>
         }
     </div>
-
-
 </div>
 
-<!-- Estilos personalizados -->
-<style>
-    h1, h2 {
-        color: #5a4e4d;
+<script>
+    if (document.startViewTransition) {
+        document.querySelectorAll('.card-link').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                document.startViewTransition(() => {
+                    window.location.href = link.href;
+                });
+            });
+        });
     }
-
-    .card {
-        border: none;
-        background-color: #fafafa;
-    }
-
-    .card-title {
-        font-size: 1.25rem;
-        color: #5a4e4d;
-    }
-
-    .card-footer .btn-outline-primary {
-        color: #5a4e4d;
-        border-color: #5a4e4d;
-    }
-    .card-footer .btn-outline-primary:hover {
-        background-color: #5a4e4d;
-        color: white;
-    }
-</style>
+</script>

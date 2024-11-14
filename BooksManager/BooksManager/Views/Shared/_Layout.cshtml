@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="view-transition" content="same-origin" />
+
     <title>@ViewData["Title"] - BooksManager</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -19,6 +21,15 @@
 
         a:hover{
             color:#fff !important;
+        }
+
+
+        /* Sombra leve para os campos de entrada */
+        .form-control-lg, #Description {
+            padding: .5rem 1rem;
+            font-size: 1em;
+            background: transparent;
+            border: 2px solid #e6e6e6;
         }
 
         .img-thumbnail {

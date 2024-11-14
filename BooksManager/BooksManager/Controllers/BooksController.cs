@@ -61,25 +61,34 @@ namespace BibliotecaMVC.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [HttpPost]
         public IActionResult Create(Book b)
         {
-            // Save the image and get the path as a string
-            string stringFileName = UploadImage(b);
-            var book = new Book
+            // Verifica se o `ModelState` é válido antes de tentar salvar os dados no banco de dados
+            if (ModelState.IsValid)
             {
-                Titulo = b.Titulo,
-                Autor = b.Autor,
-                Description = b.Description,
-                AnoPublicacao = b.AnoPublicacao,
-                ImagemPath = stringFileName // Store the image file path as a string
-            };
+                // Salva a imagem e obtém o caminho como string
+                string stringFileName = UploadImage(b);
+                var book = new Book
+                {
+                    Titulo = b.Titulo,
+                    Autor = b.Autor,
+                    Description = b.Description,
+                    AnoPublicacao = b.AnoPublicacao,
+                    ImagemPath = stringFileName // Armazena o caminho do arquivo da imagem como string
+                };
 
-            // Save the `book` entity to the database
-            _context.Books.Add(book);
-            _context.SaveChanges();
+                // Salvar a entidade `book` no banco de dados
+                _context.Books.Add(book);
+                _context.SaveChanges();
 
-            return RedirectToAction("Index");
+                return RedirectToAction("Index");
+            }
+
+            // Caso o `ModelState` não seja válido, retorna à vista "Create" com os erros de validação
+            return View("Create", b);
         }
+
 
         private string UploadImage(Book b)
         {

@@ -2,6 +2,20 @@ html {
   font-size: 14px;
 }
 
+.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;

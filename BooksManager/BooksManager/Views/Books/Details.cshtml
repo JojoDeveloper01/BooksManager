@@ -1,5 +1,7 @@
 ﻿@model BooksManager.Models.Book
 
+@model BooksManager.Models.Book
+
 <div class="container d-flex align-items-center justify-content-center vh-100">
     <div class="card shadow-lg border-0">
         <!-- Cabeçalho do Card -->
@@ -16,7 +18,7 @@
                 <div class="col-md-5 d-flex align-items-center justify-content-center mb-4">
                     @if (!string.IsNullOrEmpty(Model.ImagemPath))
                     {
-                        <img src="~/Images/@Model.ImagemPath" alt="Imagem de @Model.Titulo" class="img-fluid rounded shadow-sm w-100" style="max-height: 350px; object-fit: cover;">
+                        <img src="~/Images/@Model.ImagemPath" alt="Imagem de @Model.Titulo" class="img-fluid rounded shadow-sm w-100 view-transition-name" data-view-id="book-@Model.Id" style="max-height: 350px; object-fit: cover;">
                     }
                     else
                     {
@@ -41,6 +43,7 @@
         </div>
     </div>
 </div>
+
 
 <!-- Estilos personalizados -->
 <style>
