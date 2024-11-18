@@ -17,7 +17,7 @@ namespace BooksManager.Models
         public string? Autor { get; set; }
 
         [Required]
-        [StringLength(100)]
+        [StringLength(200)]
 
         public string? Description { get; set; }
 

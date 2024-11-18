@@ -72,7 +72,7 @@ namespace BooksManager.Migrations
 
                     b.Property<int>("Description")
                         .HasMaxLength(100)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(MAX)");
 
                     b.Property<string>("ImagemPath")
                         .HasColumnType("nvarchar(max)");

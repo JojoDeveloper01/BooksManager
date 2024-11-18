@@ -13,7 +13,7 @@ namespace BooksManager.Migrations
             migrationBuilder.AddColumn<int>(
                 name: "Description",
                 table: "Books",
-                type: "int",
+                type: "nvarchar(MAX)",
                 maxLength: 100,
                 nullable: false,
                 defaultValue: 0);
